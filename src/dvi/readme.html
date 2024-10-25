@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Calc Documentation</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #f8f9fa;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+		}
+		main {
+			margin: 20px;
+		}
+		h2 {
+			margin-top: 40px;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Smart Calc Documentation</h1>
+	</header>
+	<main>
+		<h2>Introduction</h2>
+		<p>
+			Smart Calc is a powerful and easy-to-use calculator that supports basic arithmetic operations, functions, and stack operations.
+		</p>
+		<h2>Data Structures</h2>
+		<h3>StringStack</h3>
+		<p>
+			StringStack is a stack data structure that stores strings. It is used to store and manipulate mathematical expressions.
+		</p>
+		<h3>DoubleStack</h3>
+		<p>
+			DoubleStack is a stack data structure that stores doubles. It is used to store and manipulate numerical values.
+		</p>
+		<h2>Functions</h2>
+		<h3>create_string_stack()</h3>
+		<p>
+			Creates a new StringStack object.
+		</p>
+		<h3>is_string_stack_empty(stack)</h3>
+		<p>
+			Checks if the StringStack object is empty.
+		</p>
+		<h3>push_string(stack, data)</h3>
+		<p>
+			Pushes a string onto the top of the StringStack object.
+		</p>
+		<h3>pop_string(stack)</h3>
+		<p>
+			Pops and returns the top string from the StringStack object.
+		</p>
+		<h3>peep_string(stack)</h3>
+		<p>
+			Returns the top string from the StringStack object without popping it.
+		</p>
+		<h3>print_string_stack(stack)</h3>
+		<p>
+			Prints the contents of the StringStack object.
+		</p>
+		<h3>free_string_stack(stack)</h3>
+		<p>
+			Frees the memory used by the StringStack object.
+		</p>
+		<h3>create_double_stack()</h3>
+		<p>
+			Creates a new DoubleStack object.
+		</p>
+		<h3>is_double_stack_empty(stack)</h3>
+		<p>
+			Checks if the DoubleStack object is empty.
+		</p>
+		<h3>push_double(stack, data)</h3>
+		<p>
+			Pushes a double onto the top of the DoubleStack object.
+		</p>
+		<h3>pop_double(stack)</h3>
+		<p>
+			Pops and returns the top double from the DoubleStack object.
+		</p>
+		<h3>peep_double(stack)</h3>
+		<p>
+			Returns the top double from the DoubleStack object without popping it.
+		</p>
+		<h3>printdouble_stack(stack)</h3>
+		<p>
+			Prints the contents of the DoubleStack object.
+		</p>
+		<h3>free_double_stack(stack)</h3>
+		<p>
+			Frees the memory used by the DoubleStack object.
+		</p>
+		<h3>is_digit_int(str)</h3>
+		<p>
+			Checks if the given string is a valid integer.
+		</p>
+		<h3>is_digit_double(str)</h3>
+		<p>
+			Checks if the given string is a valid floating-point number.
+		</p>
+		<h3>is_function(str)</h3>
+		<p>
+			Checks if the given string is a valid function.
+		</p>
+		<h3>is_operator(str)</h3>
+		<p>
+			Checks if the given string is a valid operator.
+		</p>
+		<h3>get_priority(input_operator)</h3>
+		<p>
+			Returns the priority of the given operator.
+		</p>
+		<h3>is_open_parenthesis(str)</h3>
+		<p>
+			Checks if the given string is an open parenthesis.
+		</p>
+		<h3>is_close_parenthesis(str)</h3>
+		<p>
+			Checks if the given string is a close parenthesis.
+		</p>
+		<h3>getPriority(input_operator)</h3>
+		<p>
+			Returns the priority of the given operator.
+		</p>
+		<h3>all_calculation(math_expression, x)</h3>
+		<p>
+			Calculates the result of the given mathematical expression.
+		</p>
+		<h3>infixToPrefix(math_expression, postfix_math_expression, x)</h3>
+		<p>
+			Converts the given infix mathematical expression to prefix notation.
+		</p>
+		<h3>process_expression(math_expression, stack, postfix_math_expression, x)</h3>
+		<p>
+			Processes the given mathematical expression and returns the result.
+		</p>
+		<h3>parse(str, stack, postfix_math_expression, x)</h3>
+		<p>
+			Parses the given string and performs the necessary operations.
+		</p>
+		<h3>process_token(token, stack, postfix_math_expression)</h3>
+		<p>
+			Processes the given token and performs the necessary operations.
+		</p>
+		<h3>eval_postfix(postfix_expression)</h3>
+		<p>
+			Calculates the result of the given postfix mathematical expression.
+		</p>
+		<h3>s21_calculate_loan(params, pay, perc, total)</h3>
+		<p>
+			Calculates the monthly payment, total payment, and total percentage for a given loan.
+		</p>
+	</main>
+</body>
+</html>
